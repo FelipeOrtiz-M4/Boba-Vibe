@@ -4,7 +4,7 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 200vh;
+    height: 150vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -81,35 +81,12 @@ body {
     width: 300px;
 }
 
-#sect1 {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    height: 8px;
-    width: 8px;
-}
-
-#sect2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 10px;
-    width: 10px;
-}
-
-#sect3 {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    height: 10px;
-    width: 10px;
-}
 
 
 button{
     background:black;
     color:#fff;
-    border:none;
+    border-radius: 8px;
     position:relative;
     height:60px;
     font-size:1.6em;
@@ -120,7 +97,7 @@ button{
   }
   button:hover{
     background:#fff;
-    color:#1AAB8A;
+    color:black;
   }
   button:before,button:after{
     content:'';
@@ -144,8 +121,41 @@ button{
   }
 
 
-  .conteiner2 {
+.conteiner2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 300px;
+}
+
+.sect1 {
+    text-align: start;
+    height: 110px;
+    background-color: white;
+    margin: auto;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.sect2 {
+    text-align: start;
+    height: 110px;
+    background-color: white;
+    margin: auto;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.sect3 {
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    width: 400px;
+    border-radius: 100px;
+    display: flex;
+}
+
+#texto3 {
+    display: flex;
+    flex-direction: column;
 }
