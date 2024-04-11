@@ -176,16 +176,31 @@
     }
 
     .right {
-        width: 100%;
-    }
-
-    .right img {
-        width: 100%;
+        display: none;
     }
 
     button {
-        width: 100%;
+        background: black;
+        color: #fff;
+        border-radius: 8px;
+        height: 60px;
+        font-size: 1.6em;
+        padding: 0 2em;
+        cursor: pointer;
+        transition: 800ms ease all;
+        outline: none;
+        width: auto;
         margin-top: 20px;
+    }
+
+    button:hover {
+        background: #fff;
+        color: black;
+    }
+
+    button:before,
+    button:after {
+        display: none;
     }
 
     .conteiner2 {
@@ -200,6 +215,7 @@
     .sect3 {
         width: 100%;
         max-width: 80%;
+        margin-bottom: 20px; /* Espacio entre elementos */
     }
 
     #imagen2 {
